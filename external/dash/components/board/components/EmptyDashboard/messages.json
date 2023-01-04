@@ -1,0 +1,14 @@
+{
+  "title": {
+    "id": "dashboard.empty.title",
+    "defaultMessage": "Nothing to see here"
+  },
+  "subtitle": {
+    "id": "dashboard.empty.subtitle",
+    "defaultMessage": "There are no assigned or open Modules for you to view."
+  },
+  "subtitle2": {
+    "id": "dashboard.empty.subtitle2",
+    "defaultMessage": "Please check back later."
+  }
+}

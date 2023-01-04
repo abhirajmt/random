@@ -1,0 +1,18 @@
+{
+  "title": {
+    "id": "dashboard.error.title",
+    "defaultMessage": "Unable to load this page"
+  },
+  "subtitle": {
+    "id": "dashboard.error.subtitle",
+    "defaultMessage": "Please try again after some time."
+  },
+  "tryAgain": {
+    "id": "dashboard.error.tryAgain",
+    "defaultMessage": "Try Again"
+  },
+  "reportIssue": {
+    "id": "dashboard.error.reportIssue",
+    "defaultMessage": "Report Issue"
+  }
+}

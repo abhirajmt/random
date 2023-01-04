@@ -1,0 +1,117 @@
+server is listening on 3400
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/chunks/react-refresh.js?ts=1672687087983 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/chunks/pages__app_js_hasBoundary.js?ts=1672687087983 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/chunks/webpack.js?ts=1672687087983 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/chunks/pages_index_js_hasBoundary.js?ts=1672687087983 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/chunks/pages/index.js?ts=1672687087983 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/chunks/pages/_app.js?ts=1672687087983 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/development/_buildManifest.js?ts=1672687087983 HTTP/1.1" 200 296 "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/development/_ssgManifest.js?ts=1672687087983 HTTP/1.1" 200 76 "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:12 +5.5-30] "GET /_next/static/chunks/main.js?ts=1672687087983 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:13 +5.5-30] "GET /_next/static/chunks/node_modules_react_index_js.js HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:13 +5.5-30] "GET /_next/static/development/_devMiddlewareManifest.json HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:13 +5.5-30] "GET /_next/static/chunks/components_nav_js.js HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:21 +5.5-30] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/chunks/react-refresh.js?ts=1672687098429 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/chunks/pages__app_js_hasBoundary.js?ts=1672687098429 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/chunks/pages_index_js_hasBoundary.js?ts=1672687098429 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/chunks/pages/_app.js?ts=1672687098429 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/chunks/webpack.js?ts=1672687098429 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/chunks/pages/index.js?ts=1672687098429 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/development/_buildManifest.js?ts=1672687098429 HTTP/1.1" 200 296 "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:24 +5.5-30] "GET /_next/static/development/_ssgManifest.js?ts=1672687098429 HTTP/1.1" 200 76 "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:25 +5.5-30] "GET /_next/static/chunks/main.js?ts=1672687098429 HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:26 +5.5-30] "GET /_next/static/chunks/node_modules_react_index_js.js HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:27 +5.5-30] "GET /_next/static/development/_devMiddlewareManifest.json HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+::ffff:127.0.0.1 - - [03/Jan/2023:00:48:28 +5.5-30] "GET /_next/static/chunks/components_nav_js.js HTTP/1.1" 200 - "https://incubation.sc.mindtickle.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+------------------------------------------
+target:--- http://localhost:3402
+/Users/abhirajkumar/Documents/extra/ssr-sidebcar/node_modules/http-proxy/lib/http-proxy/index.js:120
+    throw err;
+    ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3402
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3402
+}

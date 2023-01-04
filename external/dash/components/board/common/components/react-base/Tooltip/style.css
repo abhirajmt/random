@@ -1,0 +1,28 @@
+.opened {
+  width: 248px;
+}
+
+.arrow-up {
+  top: -5px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #2a2e36;
+}
+
+.tooltip-left-pos {
+  left: -36px;
+}
+
+.tooltip-right-pos {
+  right: -24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .opened {
+    left: 0;
+  }
+
+  .arrow-up {
+    display: none;
+  }
+}
