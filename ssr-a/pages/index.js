@@ -1,7 +1,15 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import dynamic from "next/dynamic";
 
 export default function Home() {
+  const Nav = dynamic(
+    () => {
+      return import("ssrB/nav");
+    },
+    { ssr: false }
+  );
+
   return (
     <div className={styles.container}>
       <Head>
@@ -10,22 +18,9 @@ export default function Home() {
       </Head>
 
       <main>
+        <Nav />
         <p className={styles.description}>SSR App A</p>
       </main>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
   );
 }
