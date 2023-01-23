@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "./ssr-a",
+    "./ssr-b"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm --prefix ssr-a run dev\" \"npm --prefix ssr-b run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
