@@ -3,6 +3,10 @@ import styles from "../styles/Home.module.css";
 import dynamic from "next/dynamic";
 import Nav from "ssrB/nav";
 
+const ViaCsrA = dynamic(() => import("csrA/Nav"), {
+  ssr: false
+});
+
 export default function Home() {
   //   const Nav = dynamic(
   //     () => {
@@ -19,8 +23,15 @@ export default function Home() {
       </Head>
 
       <main>
-        <Nav />
-        <p className={styles.description}>SSR App A</p>
+        <div className={styles.component}>
+          <Nav />
+        </div>
+        <div className={styles.component}>
+          <p className={styles.description}>SSR App A</p>
+        </div>
+        <div className={styles.component}>
+          <ViaCsrA />
+        </div>
       </main>
     </div>
   );

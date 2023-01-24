@@ -33,7 +33,6 @@
   text-align: center;
 }
 
-
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
@@ -88,4 +87,9 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.component {
+  border: 3px solid red;
+  margin: 10px;
 }
