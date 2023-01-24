@@ -1,14 +1,16 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
 
-export default function Home({ joke }) {
+export default function Joke(props) {
+  const { joke } = props;
+  console.log(props);
+
   return (
     <div>
       <main>
+        <h2>joke page</h2>
         <div>
-          via server props
-          <p>{joke?.value}</p>
-          <p>{joke?.url}</p>
+          <p>value - {joke?.value}</p>
+          <p>url - {joke?.url}</p>
         </div>
       </main>
     </div>
@@ -16,11 +18,8 @@ export default function Home({ joke }) {
 }
 
 export async function getServerSideProps(context) {
-  // Fetch data from external API
   const res = await fetch("https://api.chucknorris.io/jokes/random");
   const joke = await res.json();
-
-  console.log(joke);
 
   // Pass data to the page via props
   return { props: { joke } };
