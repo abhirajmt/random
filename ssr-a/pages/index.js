@@ -1,14 +1,15 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import dynamic from "next/dynamic";
+import Nav from "ssrB/nav";
 
 export default function Home() {
-  const Nav = dynamic(
-    () => {
-      return import("ssrB/nav");
-    },
-    { ssr: false }
-  );
+  //   const Nav = dynamic(
+  //     () => {
+  //       return import("ssrB/nav");
+  //     },
+  //     { ssr: false }
+  //   );
 
   return (
     <div className={styles.container}>

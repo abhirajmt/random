@@ -1,22 +1,29 @@
 const NextFederationPlugin = require("@module-federation/nextjs-mf");
 
+const remotes = (isServer) => {
+  const location = isServer ? "ssr" : "chunks";
+  return {
+    // ssrA: `ssrA@http://localhost:3001/_next/static/${location}/remoteEntry.js`,
+    // ssrB: `ssrB@http://localhost:3002/_next/static/${location}/remoteEntry.js`
+  };
+};
+
 module.exports = {
   webpack(config, options) {
-    if (!options.isServer) {
-      config.plugins.push(
-        new NextFederationPlugin({
-          name: "ssrB",
-          filename: "static/chunks/remoteEntry.js",
-          remotes: {
-            // ssrB: "ssrB@http://localhost:3002/_next/static/chunks/remoteEntry.js"
-          },
-          exposes: {
-            "./nav": "./components/nav.js"
-          },
-          shared: {}
-        })
-      );
-    }
+    config.plugins.push(
+      new NextFederationPlugin({
+        name: "ssrB",
+        filename: "static/chunks/remoteEntry.js",
+        remotes: remotes(options.isServer),
+        exposes: {
+          "./nav": "./components/nav.js"
+        },
+        shared: {},
+        extraOptions: {
+          //   automaticAsyncBoundary: true
+        }
+      })
+    );
 
     return config;
   }
