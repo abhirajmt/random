@@ -9,6 +9,8 @@ const ViaCsrA = dynamic(() => import("csrA/Nav"), {
   ssr: false
 });
 
+const NavRuntime = dynamic(() => import("ssrB/nav"));
+
 export default function Home() {
   //   const Nav = dynamic(
   //     () => {
@@ -36,16 +38,21 @@ export default function Home() {
 
       <main>
         <div className={styles.component}>
+          via static import
           <Nav />
         </div>
+        <div className={styles.component}>this app - SSR App A</div>
         <div className={styles.component}>
-          <p className={styles.description}>SSR App A</p>
-        </div>
-        <div className={styles.component}>
+          from CSR-a app
           <ViaCsrA />
         </div>
         <div className={styles.component}>
+          fetched via injectScript
           <pre>{JSON.stringify(pageMap, undefined, 2)}</pre>
+        </div>
+        <div className={styles.component}>
+          fetching from ssr B at runtime
+          <NavRuntime />
         </div>
       </main>
     </div>
