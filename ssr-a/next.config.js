@@ -21,7 +21,7 @@ module.exports = {
         },
         shared: {},
         extraOptions: {
-          automaticAsyncBoundary: true
+          //   automaticAsyncBoundary: true
         }
       })
     );

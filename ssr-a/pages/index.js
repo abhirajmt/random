@@ -3,7 +3,7 @@ import { injectScript } from "@module-federation/nextjs-mf/utils";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import dynamic from "next/dynamic";
-import Nav from "ssrB/nav";
+// import Nav from "ssrB/nav";
 
 const ViaCsrA = dynamic(() => import("csrA/Nav"), {
   ssr: false
@@ -37,10 +37,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className={styles.component}>
+        {/* <div className={styles.component}>
           via static import
           <Nav />
-        </div>
+        </div> */}
         <div className={styles.component}>this app - SSR App A</div>
         <div className={styles.component}>
           from CSR-a app
