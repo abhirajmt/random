@@ -22,6 +22,6 @@
     "start": "webpack --watch",
     "build": "webpack --mode production",
     "serve": "serve dist -p 4001",
-    "clean": "rm -rf dist"
+    "prebuild": "rm -rf dist"
   }
 }

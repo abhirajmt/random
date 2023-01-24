@@ -4,7 +4,9 @@
     "./*"
   ],
   "scripts": {
-    "start": "concurrently \"npm --prefix ssr-a run dev\" \"npm --prefix ssr-b run dev\" \"npm --prefix csr-a run dev\""
+    "dev": "concurrently \"npm --prefix ssr-a run dev\" \"npm --prefix ssr-b run dev\" \"npm --prefix csr-a run dev\"",
+    "build": "concurrently \"npm --prefix ssr-a run build\" \"npm --prefix ssr-b run build\" \"npm --prefix csr-a run build\"",
+    "start": "concurrently \"npm --prefix ssr-a run start\" \"npm --prefix ssr-b run start\" \"npm --prefix csr-a run serve\""
   },
   "dependencies": {
     "concurrently": "^7.0.0"
