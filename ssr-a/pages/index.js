@@ -1,3 +1,5 @@
+import React from "react";
+import { injectScript } from "@module-federation/nextjs-mf/utils";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import dynamic from "next/dynamic";
@@ -15,6 +17,16 @@ export default function Home() {
   //     { ssr: false }
   //   );
 
+  const [pageMap, setPageMap] = React.useState("");
+
+  React.useEffect(() => {
+    injectScript("ssrB")
+      .then((container) => container.get("./data"))
+      .then((data) => {
+        setPageMap(data);
+      });
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -31,6 +43,9 @@ export default function Home() {
         </div>
         <div className={styles.component}>
           <ViaCsrA />
+        </div>
+        <div className={styles.component}>
+          <pre>{JSON.stringify(pageMap, undefined, 2)}</pre>
         </div>
       </main>
     </div>

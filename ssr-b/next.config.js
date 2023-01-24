@@ -16,7 +16,8 @@ module.exports = {
         filename: "static/chunks/remoteEntry.js",
         remotes: remotes(options.isServer),
         exposes: {
-          "./nav": "./components/nav.js"
+          "./nav": "./components/nav.js",
+          "./data": "./data/data.js"
         },
         shared: {},
         extraOptions: {
