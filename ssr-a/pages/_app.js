@@ -1,3 +1,5 @@
+import "antd/dist/antd.css";
+
 import App from "next/app";
 import dynamic from "next/dynamic";
 
